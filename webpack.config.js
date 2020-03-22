@@ -23,8 +23,7 @@ var config = {
     library: library,
     libraryTarget: "umd",
     globalObject: `(typeof self !== 'undefined' ? self : this)`,
-    umdNamedDefine: true,
-    libraryExport: "default"
+    umdNamedDefine: true
   },
   module: {
     rules: [
