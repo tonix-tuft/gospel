@@ -1,6 +1,6 @@
 {
   "name": "gospel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Utility functions for tweaking CSS-related stuff and animating things in JS.",
   "keywords": [
     "css-in-js",
