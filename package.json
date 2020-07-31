@@ -34,12 +34,12 @@
     "build-module": "cross-env BABEL_ENV=module ./node_modules/.bin/babel ./src --out-dir ./dist/es6 --source-maps --copy-files"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
-    "@babel/plugin-transform-runtime": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "babel-loader": "^8.1.0",
@@ -47,10 +47,10 @@
     "eslint-loader": "^3.0.4",
     "minimist": ">=1.2.3",
     "serialize-javascript": "^2.1.2",
-    "terser-webpack-plugin": "^2.3.6",
-    "typescript": "^3.9.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.10"
+    "terser-webpack-plugin": "^2.3.7",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "bugs": {
     "url": "https://github.com/tonix-tuft/gospel/issues"
@@ -58,9 +58,9 @@
   "homepage": "https://github.com/tonix-tuft/gospel#readme",
   "dependencies": {
     "css-in-js-utils": "^3.0.4",
-    "gsap": "^3.2.6",
+    "gsap": "^3.4.2",
     "inline-style-prefixer": "^5.1.2",
-    "js-utl": "^4.12.1"
+    "js-utl": "^4.28.0"
   },
   "files": [
     "dist",
